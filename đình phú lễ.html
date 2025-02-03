@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đình Phú Lễ</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #b0bec5;
+            color: white;
+        }
+        header {
+            background-color: #795548;
+            color: white;
+            text-align: center;
+            padding: 50px;
+            font-family: 'Lobster', cursive;
+            border: 3px solid #d7ccc8;
+            border-radius: 10px;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+            text-transform: uppercase;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #6d4c41;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            border: 2px solid #d7ccc8;
+        }
+        .container h2, .container h3 {
+            text-align: center;
+            font-size: 36px;
+            color: black;
+            font-family: 'Lobster', cursive;
+        }
+        .image-wrapper img {
+            width: 100%;
+            border-radius: 10px;
+            border: 3px solid #ffffff;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border-radius: 10px;
+            border: 3px solid #ffffff;
+        }
+        .video-container {
+            margin-top: 50px;
+            text-align: center;
+            border: 2px solid #d7ccc8; /* Khung cho video */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #6d4c41;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            border: 2px solid #d7ccc8;
+            border-radius: 10px;
+        }
+
+        /* Cấu hình hiệu ứng chuyển động ảnh */
+        .image-row {
+            display: flex;
+            gap: 20px; /* Khoảng cách giữa các ảnh */
+            margin-top: 50px;
+        }
+
+        .image-container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container img {
+            position: absolute;
+            width: 120%; /* Hình ảnh lớn hơn khung để tạo hiệu ứng */
+            height: 100%;
+            object-fit: cover;
+            transform: translateX(-100%); /* Ban đầu ảnh nằm ngoài khung */
+            transition: transform 1s ease;
+        }
+
+        .image-container:hover img {
+            transform: translateX(0); /* Khi hover, ảnh di chuyển vào khung */
+        }</style>
+</head>
+<body>
+    <header>
+        <h1>Đình Phú Lễ</h1>
+        <p>🔥 Di tích lịch sử cấp quốc gia 🔥</p>
+         <ul style="display: flex; justify-content: center; list-style: none; background-color: #4B2C2D; padding: 10px; margin: 0; border-bottom: 2px solid #d35400;">
+        <li style="margin: 0 15px;">
+            <a href="Home.html" style="text-decoration: none; color: white; font-weight: bold;">Home</a>
+    </header>
+
+    <div class="container">
+        <h2>&#x2698;Giới thiệu</h2>
+        
+
+        <p class="intro"><strong>Đình Phú Lễ</strong> là một trong những công trình kiến trúc cổ kính và quan trọng tại Bến Tre. Được xây dựng vào thế kỷ XVIII, đình mang giá trị lịch sử và văn hóa to lớn, là nơi tổ chức các lễ hội truyền thống và tưởng nhớ các bậc tiền nhân.</p>
+
+        <h3>&#9880; Vị trí trên bản đồ:</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.396092348555!2d106.6090485740785!3d10.066594771887189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x319ff971f8d78fd1%3A0x5df56fb57182f832!2zxJDDrG5oIFBow7ogTOG7hQ!5e0!3m2!1svi!2s!4v1737712743607!5m2!1svi!2s" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- Thêm phần video -->
+        <div class="video-container">
+            <h3>&#9733; Video giới thiệu Đình Phú Lễ &#9733;:</h3>
+            <iframe 
+                src="https://www.youtube.com/embed/example_video_id" 
+                title="Video về Đình Phú Lễ" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Phần ảnh chuyển động nằm ngang -->
+        <h3>&#9733; Một số hình ảnh về Đình Phú Lễ &#9733;</h3>
+        <div class="image-row">
+            <div class="image-container">
+                <img src="https://scontent.iocvnpt.com/resources/portal//Images/BTE/superadminportal.bte/dia_diem/van_hoa_lich_su/dinh_phu_le/dinh_phu_le_74749087.jpg" alt="Image 1">
+            </div>
+            <div class="image-container">
+                <img src="https://cdnphoto.dantri.com.vn/Q2eDrc6BPUSUq-l1awGDmbpAYH8=/thumb_w/680/2024/01/29/1a-105541-1706521438660.jpg" alt="Image 2">
+            </div>
+            <div class="image-container">
+                <img src="https://travel-museum.s3.ap-southeast-1.amazonaws.com/d602e90c-600b-4eff-821f-47a84b899e29-dinh-phu-le-2-6246dbf259c66jpg.jpg" alt="Image 3">
+            </div>
+            <div class="image-container">
+                <img src="https://ruouphule.com/wp-content/uploads/2016/11/DJI_0122.jpg" alt="Image 4">
+            </div>
+        </div>
+
+    </div><!-- Các phần khác của trang ở trên -->
+    
+    <div class="section">
+        <h2>&#10084;Chia sẻ lên mạng xã hội</h2>
+        <div class="social-share">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://link_to_your_page" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Chia sẻ Facebook" width="40">
+            </a>
+            
+            <a href="https://www.instagram.com/?url=https://link_to_your_page" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Chia sẻ Instagram" width="40">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+    <footer>
+        <p>© 2025 Đình Phú Lễ - Di tích lịch sử cấp quốc gia.</p>
+    </footer>
+    
+</body>
+</html>

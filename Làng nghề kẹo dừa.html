@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Làng Nghề Kẹo Dừa Bến Tre</title>
+    <!-- Thêm Google Font: Playfair Display cho các tiêu đề -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Phông chữ mặc định cho toàn bộ trang */
+            background-color: #D3B7A7; /* Màu nâu xám */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4B2C2D; /* Màu nâu đậm */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif; /* Phông chữ cho tiêu đề lớn */
+            color: white; /* Màu đen cho tiêu đề lớn */
+        }
+        .content {
+            padding: 20px;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif; /* Đổi font chữ cho tiêu đề */
+            color: #4B2C2D; /* Màu nâu đậm */
+        }
+        .section {
+            border: 2px solid #4B2C2D; /* Màu nâu đậm */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            background-color: #fff; /* Nền trắng cho mỗi section */
+            opacity: 0.9; /* Mới hiệu ứng mờ */
+            transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease; /* Thêm hiệu ứng chuyển động và đổ bóng */
+        }
+        .section:hover {
+            transform: translateY(-10px); /* Di chuyển lên khi di chuột */
+            opacity: 1; /* Tăng độ mờ */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Tạo bóng đổ */
+        }
+        .image-gallery img {
+            width: 100%;
+            max-width: 500px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        video {
+            max-width: 100%;
+            display: block;
+            margin: 20px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+        }
+        th {
+            background-color: #4B2C2D; /* Màu nâu đậm */
+            color: white;
+        }
+        td {
+            background-color: #fff;
+        }
+
+        /* Hiệu ứng khi cuộn trang */
+        .section-visible {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .section-visible.in-view {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Làng Nghề Kẹo Dừa Bến Tre&#x1F334;</h1>
+    </header>
+    <nav>
+        <ul style="display: flex; justify-content: center; list-style: none; background-color: #4B2C2D; padding: 10px; margin: 0; border-bottom: 2px solid #d35400;">
+             <li style="margin: 0 15px;">
+        <a href="Home.html" style="text-decoration: none; color: white; font-weight: bold;">Home</a>
+       </li>
+        <li style="margin: 0 15px;">
+        <a href="Lễ hội Nghinh Ông.html" style="text-decoration: none; color: white; font-weight: bold;">Lễ hội Nghinh Ông</a>
+    </li>
+    <li style="margin: 0 15px;">
+        <a href="Đờn ca tài tử.html" style="text-decoration: none; color: white; font-weight: bold;">Đờn ca tài tử</a>
+    </li>
+    <li style="margin: 0 15px;">
+        <a href="Làng nghề kẹo dừa.html" style="text-decoration: none; color: white; font-weight: bold;">Làng nghề kẹo dừa</a>
+    </li>
+            
+            
+        </ul>
+    </nav>
+
+    <div class="content"><div class="section section-visible">
+            <h2>Giới thiệu về làng nghề</h2>
+            <p>Làng nghề truyền thống làm kẹo dừa Bến Tre nổi tiếng với các sản phẩm kẹo dừa thơm ngon, mang đậm hương vị đặc trưng của miền Tây Nam Bộ. Kẹo dừa Bến Tre đã được xuất khẩu đi khắp nơi trên thế giới, là món quà đặc sản nổi tiếng của người dân nơi đây.</p>
+        </div>
+        
+        <div class="section section-visible">
+            <h2>Quá trình sản xuất kẹo dừa</h2>
+            <p>Kẹo dừa Bến Tre được làm từ dừa tươi, đường và sữa đặc, qua các công đoạn chế biến công phu và tỉ mỉ. Mỗi viên kẹo dừa là sự kết hợp hoàn hảo giữa vị ngọt của đường, béo của dừa và hương thơm đặc trưng. Quá trình sản xuất bao gồm các bước như nạo dừa, nấu kẹo, đóng gói và bảo quản để đảm bảo chất lượng tốt nhất.</p>
+        </div>
+        
+        <div class="section section-visible">
+            <h2>Hình ảnh về làng nghề</h2>
+            <div class="image-gallery">
+                <img src="https://media.mia.vn/uploads/blog-du-lich/nghe-lam-keo-dua-ben-tre-net-dep-truyen-thong-qua-bao-the-he-04-1666973773.jpg" width="550" height="333" alt="Kẹo dừa Bến Tre">
+                <img src="https://scontent.iocvnpt.com/resources/portal//Images/BTE/superadminportal.bte/tintuc/2020_5_7_17_4_33_475_144286578.jpg" alt="Quá trình sản xuất kẹo dừa">
+            </div>
+        </div>
+        <div class="section section-visible">
+            <h2>Video về làng nghề</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZnCQOr8e6G4?si=lTX9fP7SczKFOxs4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mg4n3wIKY7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="section section-visible">
+            <h2>Thông tin về các loại kẹo dừa</h2>
+            <table>
+                <tr>
+                    <th>Tên Sản Phẩm</th>
+                    <th>Nguyên Liệu</th>
+                    <th>Giá</th>
+                </tr>
+                <tr>
+                    <td>Kẹo Dừa Cơ Bản</td>
+                    <td>Dừa tươi, đường, sữa đặc</td>
+                    <td>50,000 VND/kg</td>
+                </tr>
+                <tr>
+                    <td>Kẹo Dừa Nhân Sầu Riêng</td>
+                    <td>Dừa tươi, đường, sữa đặc, sầu riêng</td>
+                    <td>70,000 VND/kg</td>
+                </tr>
+                <tr>
+                    <td>Kẹo Dừa Nhân Socola</td>
+                    <td>Dừa tươi, đường, sữa đặc, socola</td>
+                    <td>65,000 VND/kg</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Hiệu ứng cuộn trang (scroll)
+        const sections = document.querySelectorAll('.section-visible');
+
+        const checkSectionInView = () => {
+            const triggerBottom = window.innerHeight / 5 * 4;sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+
+                if (sectionTop < triggerBottom) {
+                    section.classList.add('in-view');
+                } else {
+                    section.classList.remove('in-view');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', checkSectionInView);
+        checkSectionInView(); // Kiểm tra ngay khi tải trang
+    </script>
+</body>
+</html>

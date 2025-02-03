@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</html>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Di tích lịch sử Bến Tre</title>
+    <style>
+        .contact-socials {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 1rem;
+            background-color: #2a2a2a;
+            color: #f5f5f5;
+            border-bottom: 2px solid #444;
+        }
+        .contact-socials h2 {
+            margin-right: 1rem;
+            color: #f4b400;
+        }
+        .contact-icons {
+            display: flex;
+            gap: 1rem;
+        }
+        .contact-icons a {
+            display: inline-block;
+        }
+        .phone-number {
+            margin-left: auto;
+            color: #f5f5f5;
+        }
+        .phone-number a {
+            color: #f4b400;
+        }
+    </style>
+
+</div></div>
+<style>
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-container img {
+        margin-right: 20px;
+    }
+</style>
+
+  <style>
+    /* Logo */
+
+    /* Tổng quan */
+    .logo {
+   
+    height: auto; /* Giữ tỷ lệ logo */
+    flex-shrink: 0; /* Không cho logo bị thu nhỏ */
+}
+
+.logo img {
+    width: 100%; /* Đảm bảo logo chiếm toàn bộ chiều rộng khung */
+    height: auto; /* Tự động điều chỉnh chiều cao theo tỷ lệ */
+}
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1b1b1b, #333333);
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: #f4b400;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header */
+    header {
+      background-color: #2a2a2a;
+      color: #f5f5f5;
+      padding: 1.5rem 0;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #f4b400;
+    }
+    header p {
+      margin-top: 0.5rem;
+      color: #cccccc;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: #1f1f1f;
+      color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      padding: 0.8rem 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    nav a {
+      margin: 0 1rem;
+      font-weight: bold;
+      color: #f5f5f5;
+    }
+    nav a:hover {
+      color: #f4b400;
+    }
+
+    /* Giới thiệu */
+    section.intro {
+      padding: 2rem;
+      background-color: #1f1f1f;
+      text-align: center;
+      border-radius: 10px;
+      margin: 1rem auto;
+      max-width: 800px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    }
+    section.intro h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      color: #f4b400;
+    }
+    section.intro p {
+      margin-bottom: 1rem;
+      color: #cccccc;
+    }
+
+    /* Các di tích */
+    section.sites {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .site-card {
+      background: #2a2a2a;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .site-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+    }
+    .site-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+    .site-card img:hover {
+      transform: scale(1.05);
+      filter: brightness(1.2);
+    }
+    .site-card h3 {
+      margin: 1rem 0;
+      font-size: 1.5rem;
+      color: #f4b400;
+    }
+    .site-card p {
+      padding: 0 1rem 1rem;
+      color: #cccccc;
+    }
+    .site-card a {
+      display: block;
+      background: #f4b400;
+      color: #2a2a2a;
+      padding: 0.8rem;
+      font-weight: bold;
+    }
+    .site-card a:active {
+      background: #e39500;
+      transform: scale(0.95);
+    }
+
+    /* Đánh giá */
+    section.comments {
+      padding: 2rem;
+      background: #1f1f1f;
+      border-radius: 10px;
+      margin: 2rem auto;
+      max-width: 800px;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    }
+    section.comments h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #f4b400;
+    }
+    .comments-list {
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+    .comments-list li {
+      background: #2a2a2a;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    }
+    .comments-list li strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #f4b400;
+    }
+    .comment-form {
+      text-align: center;
+    }
+    .comment-form input, 
+    .comment-form textarea, 
+    .comment-form button {
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      border: 1px solid #444;
+      border-radius: 5px;
+      background-color: #2a2a2a;
+      color: #f5f5f5;
+    }
+    .comment-form button {
+      background-color: #f4b400;
+      color: #1f1f1f;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .comment-form button:hover {
+      background-color: #e39500;
+    }
+
+    /* Footer */
+    footer {
+      background: #121212;
+      color: #cccccc;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+      border-top: 2px solid #444;
+    }
+    footer p {
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    
+    <h1>Di tích lịch sử Bến Tre</h1>
+    <p>Khám phá các công trình lịch sử và văn hóa của Bến Tre</p>
+    <img src="images/logo1.png" width="200" height="120" alt="Logo" class="logo">
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#intro">Home</a>
+    <a href="#sites">Các di tích</a>
+    <a href="Lễ hội Nghinh Ông.html">Các nền văn hóa</a>
+
+    <a href="#comments">Đánh giá</a>
+
+  </nav>
+
+  <!-- Giới thiệu -->
+  <section class="intro" id="intro">
+    <h2>Giới thiệu</h2>
+    <p>Bến Tre là vùng đất giàu truyền thống lịch sử và văn hóa. Tại đây, bạn sẽ tìm thấy các di tích mang giá trị lịch sử to lớn, góp phần gìn giữ bản sắc dân tộc.</p>
+    <p>Dưới đây là các địa điểm nổi bật của Bến Tre mà bạn không thể bỏ qua.</p>
+  </section>
+
+  <!-- Các di tích -->
+  <section class="sites" id="sites">
+    <div class="site-card">
+      <img src="https://dabaongoc.com/wp-content/uploads/2021/03/khu-lang-mo-nguyen-dinh-chieu-ben-tre.jpg" alt="Đền thờ Nguyễn Đình Chiểu">
+      <h3>Đền Nguyễn Đình Chiểu</h3>
+      <p>Nơi tôn vinh nhà thơ yêu nước Nguyễn Đình Chiểu, được xây dựng vào năm 1972.</p>
+      <a href="di tích lịch sử Nguyễn Đình Chiểu.html ">Xem chi tiết</a>
+    </div>
+    <div class="site-card">
+      <img src="https://icdn.dantri.com.vn/zoom/1200_630/2024/01/29/1a-105541-1706521439678.jpg" alt="Đình Phú Lễ">
+      <h3> Đình Phú Lễ</h3>
+      <p>Một trong những di tích lịch sử - văn hóa nổi bật của tỉnh Bến Tre, mang đậm dấu ấn văn hóa truyền thống và giá trị lịch sử</p>
+      <a href="đình phú lễ.html">Xem chi tiết</a>
+    </div>
+    <div class="site-card">
+      <img src="https://dulichokela.com/wp-content/uploads/2024/01/khu-di-tich-dong-khoi-ben-tre-2.jpg" alt="Khu di tích Đồng Khởi">
+      <h3>Khu di tích Đồng Khởi</h3>
+      <p>Địa điểm ghi dấu phong trào Đồng Khởi năm 1960, biểu tượng của tinh thần kháng chiến.</p>
+      <a href="di tích đồng khởi.html">Xem chi tiết</a>
+    </div>
+  </section>
+
+  <!-- Đánh giá -->
+<section class="comments" id="comments">
+  <h2>Đánh giá và bình luận</h2>
+  <ul class="comments-list" id="commentsList">
+    <li>
+      <strong>Nguyễn Văn A</strong>
+      Di tích rất đẹp và ý nghĩa!
+    </li>
+    <li>
+      <strong>Trần Thị B</strong>
+      Tôi rất ấn tượng với Đền thờ Nguyễn Đình Chiểu!
+    </li>
+  </ul>
+  <div class="comment-form">
+    <input type="text" id="username" placeholder="Tên của bạn" required>
+    <textarea id="commentText" rows="5" placeholder="Nhận xét của bạn" required></textarea>
+    <button id="submitComment">Gửi nhận xét</button>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+ 
+</footer>
+
+<script>
+  // Xử lý sự kiện khi người dùng gửi bình luận
+  document.getElementById("submitComment").addEventListener("click", function () {
+    const username = document.getElementById("username").value.trim();
+    const commentText = document.getElementById("commentText").value.trim();
+    
+    if (username && commentText) {
+      // Tạo phần tử bình luận mới
+      const newComment = document.createElement("li");
+      const userStrong = document.createElement("strong");
+      userStrong.textContent = username;
+      newComment.appendChild(userStrong);
+      newComment.appendChild(document.createTextNode(commentText));
+
+      // Thêm bình luận mới vào danh sách
+      const commentsList = document.getElementById("commentsList");
+      commentsList.insertBefore(newComment, commentsList.firstChild);
+
+      // Xóa nội dung input sau khi gửi
+      document.getElementById("username").value = "";
+      document.getElementById("commentText").value = "";
+    } else {
+      alert("Vui lòng điền đầy đủ tên và nhận xét!");
+    }
+  });
+</script>
+<!-- Liên hệ Facebook và Instagram -->
+    <div class="contact-socials" id="contact-socials">
+      <h2>Liên hệ với chúng tôi</h2>
+      <p>Chúng tôi luôn sẵn sàng hỗ trợ bạn qua Facebook và Instagram!</p>
+      <div class="contact-icons">
+        <!-- Liên kết Facebook -->
+        <a href="https://www.facebook.com/share/1A1UdRCHYg/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="50" height="50">
+        </a>
+        <!-- Liên kết Instagram -->
+        <a href="https://www.instagram.com/thanhcongne?igsh=ZGI5MmM0ejRudW02&utm_source=qr" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" width="50 " height="50" class="social-icon">
+        </a>
+      </div>
+      <p class="phone-number">Số điện thoại: <a href="tel:+84901234567">+0865793121</a></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Bảo tồn và phát huy giá trị Khu di tích Đồng Khởi.</p>
+  </footer>
+
+</body>
+</html>
